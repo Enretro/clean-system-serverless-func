@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clean-System</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- navbar 
+    <nav class="nav">
+      <div class="nav-header">
+        <img src="./assets/logo.svg" alt="logo" />
+        <a href="index.html">Homme</a>
+      </div>
+    </nav> -->
+    <header>
+      <div class="logo">
+        <img src="./assets/logo.svg" alt="logo" />
+      </div>
+      <div class="toggle"></div>
+      <div class="navigation">
+        <ul>
+          <li><a href="index_02.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="./examples/3-airtable/index.html">Products</a></li>
+          <li><a href="./examples/6-newsletter/index.html">Newsletter</a></li>
+          <li><a href="./examples/7-email/index.html">Send mail</a></li>
+        </ul>
+        <div class="social-bar">
+          <ul>
+            <li>
+              <a href="https://facebook.com">
+                <img src="assets/facebook.png" target="_blank" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com">
+                <img src="assets/twitter.png" target="_blank" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com">
+                <img src="assets/instagram.png" target="_blank" alt="">
+              </a>
+            </li>
+          </ul>
+          <a href="mailto:you@email.com" class="email-icon">
+            <img src="assets/email.png" alt="">
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="home">
+      <img class="home-img fade-in-image" src="assets/home-img.jpg" alt="">
+      <div class="home-content">
+        <h1>
+          We help to achieve <br />
+          your goals.
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus cum cupiditate doloribus omnis fugiat tenetur molestiae ea deleniti alias aliquid odit incidunt, vitae officiis ipsam iusto quam totam fugit!</p>
+        <a href="" class="btn">Get Started</a>
+      </div>
+    </section>
+    <script type="text/javascript">
+      const toggle = document.querySelector('.toggle')
+      const navigation = document.querySelector('.navigation')
+
+      toggle.addEventListener('click', () => {
+        toggle.classList.toggle('active')
+        navigation.classList.toggle('active')
+      })
+
+    </script>
+    <!-- examples section 
+    <section class="section section-center examples">
+      <h1>netlify serverless functions</h1>
+      <h3 class="title">Examples</h3>
+      <ul>
+        <li>
+          <a href="./examples/1-hello/index.html">hello world</a>
+        </li>
+        <li>
+          <a href="./examples/2-basic-api/index.html">basic API</a>
+        </li>
+        <li>
+          <a href="./examples/3-airtable/index.html">airtable</a>
+        </li>
+        <li>
+          <a href="./examples/4-survey/index.html">Survey</a>
+        </li>
+        <li>
+          <a href="./examples/5-weather/index.html">Open Weather API</a>
+        </li>
+        <li>
+          <a href="./examples/6-newsletter/index.html">Newsletter</a>
+        </li>
+        <li>
+          <a href="./examples/7-email/index.html">Send Email</a>
+        </li>
+        <li>
+          <a href="./examples/8-stripe/index.html">Stripe Payment</a>
+        </li>
+      </ul>
+    </section> -->
+  </body>
+</html>
